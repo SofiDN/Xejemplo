@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.main-header{
+    background-color: #eac926;
+    width: 100%;
+    margin: auto;
+    padding:20px;
+}
+
+.compra-ctas{
+    text-align: center;
+}
+
+.products-container {
+    padding: 20px;
+    width: 90%;
+    margin: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-container img{
+    width: 100%;
+    margin: auto;
+    display: block;    
+}
+
+.article{
+    background-color: #FFF;
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 20px;
+    /*flexbox*/
+    display: flex;
+    flex-wrap: wrap;
+    /*aligment*/
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    cursor: pointer;
+}
+
+.article img,
+.article div{
+    width: 90%;
+}
+.article img{
+    align-self: flex-start;
+    margin: auto; 
+}
+
+.block-description{
+    margin: 15px;
+    border-top: 1px solid #ebebeb;
+    background-color: #FFF;
+    position:relative;
+    display: flex; 
+    width: 100%;
+    flex-direction: column;
+}
+
+.titulares{
+    font-size: 24px;
+    padding: 10px;
+    color: #666;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.title-footer{
+    font-size: 16px;
+    justify-content: center; 
+}
+
+.body-footer{
+    font-size: 12px;
+}
+.copy{
+    font-size: 12px;
+    text-align: center;
+}
+
+.descripcion{
+    font-size: 16px;
+    margin-top: 10px;
+   }
+
+.search-bar{
+    margin-left: 20px;
+    font-size: 12px;
+ 
+}
+
+.nav-gral{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li a{
+    list-style: none;
+    text-decoration: none;
+      
+}
+li{
+    margin: 0 10px;
+}
+.burguer-menu{
+    display: none;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.truck {
+    color: #39b54a;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top:-15px;
+ 
+}
+.article:hover .truck{
+    transform: rotate(-90deg);
+    transition: 0.6s;
+}
+
+.icon-footer{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:#1259c3;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-section{
+    width: 200px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.logo img{
+    display: block;
+
+}
+ /*formulario Login*/
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 5);
+    border-radius: 5%;
+    margin-bottom: 30px;
+    
+}
+.user-login{
+    border-color: #ebebeb;
+    padding: 5px;
+    margin: 10px;
+    width: auto;
+}
+
+.pass-login{
+    border-color: #ebebeb;
+    padding: 5px;
+    margin: 10px;
+    width: auto;
+}
+.button-login:hover{
+    background-color: blue;
+   
+}
+/*fin formulario login */
+
+/*formulario Register*/
+.registro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    border-color: #ebebeb;
+    padding: 5px;
+    margin: 10px;
+    width: auto;
+    margin-left: 20px;
+}
+
+/*fin formulario Register*/
+
+@media (max-width: 769px){
+    
+    .logo{
+        width: 50vw;
+        
+    } 
+    .search-bar{
+        width: auto;
+    }
+
+    .cabecera{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .burguer-menu{
+    background-color: #03264C;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    
+    }
+    .descripcion{
+        font-size: 16px;
+        display: none;
+    }
+    .nav-list{
+        list-style: none;
+        text-decoration: none;
+        display: none;
+    }
+
+    .article:hover{
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, 5);
+    }
+
+    .truck:hover{
+        transition: all 0.05s;
+    }
+           
+        
+    .article:hover .descripcion{
+        display: block;
+    }
+}
+
+@media (min-width: 770px){
+    
+    .article{
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, 5);
+    }   
+    .nav-list{
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+}
+
+
+
+
