@@ -184,6 +184,7 @@ li{
 
 .logo img{
     display: block;
+    width: 50%;
 
 }
  /*formulario Login*/
@@ -225,7 +226,22 @@ li{
 /*fin formulario login */
 
 /*formulario Register*/
+
+.register{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    border-color: #ebebeb;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    align-items: center;
+}
+
 .registro{
+    background-color: #ebebeb;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -234,10 +250,23 @@ li{
     border-color: #ebebeb;
     padding: 5px;
     margin: 10px;
-    width: auto;
     margin-left: 20px;
+
 }
 
+.send{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 5);
+}
+.send:hover{
+    background-color: blue;
+}
+.reset{
+
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 5);
+}
+.reset:hover{
+    background-color: blue;
+}
 /*fin formulario Register*/
 
 @media (max-width: 769px){

@@ -50,19 +50,19 @@
     </div>    
              
      <!--Contenido cuerpo ppal-->   
-        <main>
+        <main class="register">
             <form action="/registro" method="get">
                 <div class="registro">
                     <input type="Name" name="Nombre y Apellido"required placeholder="Nombre y Apellido"></form> 
-                    
+                    <br>
                     <form action=""> <input type="user" name="user"required placeholder="Usuari@"></form>
-                    
+                    <br>
                     <form action=""> <input type="date" name="date" required placeholder="Fecha de Nacimiento"></form>
-                    
+                    <br>
                     <form action=""> <input type="Domicilio" name="Domicilio" placeholder="Domicilio"></form>
-                    
+                    <br>
                     <label for="Comprar">Comprar: <input type="radio" name= "Compra/Venta" value="Comprar"></label>
-                    
+                    <br>
                     <label for="Vender">Vender: <input type="radio" name= "Compra/Venta" value="Vender"></label>
                     <br>
                     <input type="checkbox" name="Intereses" value="Electro"><label for="Intereses">Electro</label>
@@ -72,15 +72,17 @@
                     <input type="checkbox" name="Intereses" value="Vida Sana"><label for="Intereses">Vida Sana</label>
                     <br>
                     <label for="Selecciona una imagen de Perfil":></label>
+                    <br>
                     <input type="file" name="avatar" accept=".jpg">
                     
                     <form action=""> <input type="password" name="Contraseña" placeholder="Contraseña"></form>
+                    <br>
                     <form action=""> <input type="password" name="Contraseña" placeholder="Confirmar Contraseña"></form>
                         
                                        
                 </div>
-            <a href="/"><input class="send" type="button" value="Enviar"></a>
-                    <input class="reset" type="reset" value="Borrar">
+                    <a href="/"><input class="send" type="button" value="Enviar">
+                    <input class="reset" type="reset" value="Borrar"></a>
             </form>        
         
     </main>
